@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Max's Meow Cafe</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="top.css">
+
+<style type = "text/css">
+
+h1#title {text-align: center; font-family: 'Times New Roman', Times, serif}
+h1#title {font-size: 50px}
+div.bottom {background-color:#0bc0e0}
+form#entry {text-align: center; font-size: 20px;}
+div.cats li{display:  list-item; list-style-type : none; text-align: center;}
+div.cats li.black{margin: 2px 230px}
+div.cats p {font-size: 20px;}
+div.cats img {height: 200px; }
+
+@media (max-width : 600px)
+{
+    div.cats li {display:inline-block; margin: auto; text-align: left}
+    div.cats li.black{margin: 2px 5px}
+}
+</style>
+</head>
+
+<body>
+   
+    <div class="nav">
+    <ul id='nav'>
+    <h1 id = "Heading"> Max's Meow Cafe</h1>
+    <li><a href="default.html">Home</a></li>
+    <li><a href="Contact.html">Contact/Reserevations</a></li>
+    <li><a href="Cats.html">Our Cats</a></li>
+    <li><a href="Menu.html">Menu</a></li>
+    </ul>
+    <hr />
+    </div>
+
+    <div class = top>
+    <h1 id = title>Our Cats</h1>
+    <form id = entry>
+    <label for = "nameSpace">If you interested in adopting one of our cats please enter your email here <br></label>
+    <input type = "text" id = nameSpace> <br>
+    <input type = "submit" value = "Submit">
+    <br>
+    </form>
+    </div>
+    <hr />
+
+    <div class = cats>
+        <ul>
+        <li class = tabby>
+        <h2>Marble, 3 M</h2>
+        <img src = "tabby.jpg" id = tabby>
+        <p> Marble is our tabby resident. He's on the shyer side and sleeps a lot but <br>
+            loves to hang out with the other cats and will warm up to people too!</p>
+        </li>
+        <li class = orange>
+            <h2>Pumpkin, 5 F</h2>
+            <img src = "orange.jpg" id = orange>
+            <p> Pumpkin is one of our most energetic residents!<br>
+                She is very social and will move quickly to demand both
+                pets and treats from customers</p>
+            </li>
+        <li class = tux>
+            <h2>Mr. Boots, 9 M</h2>
+            <img src = "tux.jpg" id = tux>
+            <p> Mr. Boots is our senior resident. He spends a lot of time sleeping <br>
+                He may seem grumpy but he's a softy deep down <br>
+                Just make sure not to get on his nerves</p>
+        <li class = black>
+            <h2>Spooky, 3 Months F</h2>
+            <img src = "black.jpg" id = black>
+            <p> Spooky is our latest addition to the cafe!<br>
+                She is a bit afriad of new visitors but will come out <br>
+                when she sees the other cats come out to play</p>
+        </li>
+        </ul>
+        </div>
+    </div>
+
+    <div class = bottom>
+        <br>
+    </div>
+</body>
+</html>

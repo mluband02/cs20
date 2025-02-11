@@ -1,0 +1,16 @@
+h1#Heading {text-align:center}
+h1#Heading {font-family: "Caveat", serif}
+h1#Heading {font-size: 50px}
+h1#Heading {color: #0bc0e0}
+div.nav {text-align:center}
+ul#nav {list-style-type: none;}
+ul#nav li { display:inline-block; margin: 2px 40px;}
+ul#nav li a {text-decoration: none; padding: 5px; color: #000}
+ul#nav li a:hover {background-color: #0bc0e0; color: #fff}
+
+
+@media (max-width : 600px)
+{
+ul#nav li {display:inline-block; margin: 2px 27px;}
+ul#nav li a {font-size: 30px}
+}
